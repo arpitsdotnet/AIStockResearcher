@@ -11,8 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="Features\Workers\DailyEmailWorker\" />
+    <Folder Include="Database\" />
+    <Folder Include="Schedulers\" />
   </ItemGroup>
 
 </Project>
