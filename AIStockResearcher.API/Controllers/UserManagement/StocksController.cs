@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AIStockResearcher.API.Controllers
+namespace AIStockResearcher.API.Controllers.UserManagement
 {
     [Route("api/stocks")]
     [ApiController]
-    public class StocksManagementController : ControllerBase
+    public class StocksController : ControllerBase
     {
         // GET: api/stocks/search?query=apple
         [HttpGet("search")]

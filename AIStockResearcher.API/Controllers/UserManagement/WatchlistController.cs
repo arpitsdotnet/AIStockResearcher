@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AIStockResearcher.API.Controllers
+namespace AIStockResearcher.API.Controllers.UserManagement
 {
     [Route("api/watchlist")]
     [ApiController]
-    public class WatchlistManagementController : ControllerBase
+    public class WatchlistController : ControllerBase
     {
         // GET: api/watchlist
         [HttpGet]

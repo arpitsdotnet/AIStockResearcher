@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AIStockResearcher.API.Controllers
+namespace AIStockResearcher.API.Controllers.UserManagement
 {
     [Route("api/portfolio")]
     [ApiController]
-    public class PortfolioManagementController : ControllerBase
+    public class PortfolioController : ControllerBase
     {
         // GET: api/portfolio/summary
         [HttpGet("summary")]

@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AIStockResearcher.API.Controllers
+namespace AIStockResearcher.API.Controllers.UserManagement
 {
     [Route("api/transactions")]
     [ApiController]
-    public class TransactionsManagementController : ControllerBase
+    public class TransactionsController : ControllerBase
     {
         // POST: api/transactions : Record Buy/Sell Transaction
         [HttpPost]

@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AIStockResearcher.API.Controllers
+namespace AIStockResearcher.API.Controllers.UserManagement
 {
     [Route("api/market")]
     [ApiController]
-    public class MarketManagementController : ControllerBase
+    public class MarketController : ControllerBase
     {
         [HttpGet("overview")]
         public IActionResult GetMarketOverview()
@@ -23,7 +23,7 @@ namespace AIStockResearcher.API.Controllers
         {
             var dailyReport = new
             {
-                Date = DateTime.UtcNow.Date,
+                DateTime.UtcNow.Date,
                 Summary = "Market is performing well today."
             };
             return Ok(dailyReport);

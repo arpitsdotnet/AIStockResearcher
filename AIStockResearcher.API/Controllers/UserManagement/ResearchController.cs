@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AIStockResearcher.API.Controllers
+namespace AIStockResearcher.API.Controllers.UserManagement
 {
     [Route("api/research")]
     [ApiController]
-    public class ResearchManagementController : ControllerBase
+    public class ResearchController : ControllerBase
     {
         // POST : api/research/analyze : Analyze a stock
         [HttpPost("analyze")]
